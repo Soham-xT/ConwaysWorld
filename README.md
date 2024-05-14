@@ -13,6 +13,8 @@ These simple rules give rise to complex patterns and behaviors, including stable
 ## Double Pendulum Simulation
 The Double Pendulum simulation is based on Lagrangian mechanics and utilizes the sympy library for symbolic calculations and matplotlib for plotting the movement of the pendulum.
 
+![Conway's Game of Life](https://upload.wikimedia.org/wikipedia/commons/8/85/Galaxy%28Conway%27s_Game_of_Life%29.gif?20131230023026)
+
 ### Usage
 #### 1. Ensure you have proper dependencies installed 
 ```python
