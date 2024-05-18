@@ -9,6 +9,7 @@ from gensim import corpora, models
 
 # simple LDA and NLTK based document sorter that sorts documents based on their central theme
 
+
 nltk.download('stopwords')
 stop_words=set(stopwords.words('english'))
 nlp=spacy.load('en_core_web_sm')
@@ -42,7 +43,7 @@ def Extract_Text(file_path):
         return document_text
     return None
 
-documents_path='Documents/'
+documents_path='Documents/' # needs to replaced with actual path
 documents=[]
 document_names = os.listdir(documents_path)
 
