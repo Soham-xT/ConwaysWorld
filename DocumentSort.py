@@ -6,7 +6,9 @@ import shutil
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import CountVectorizer
 from gensim import corpora, models
-# he
+
+# simple LDA and NLTK based document sorter that sorts documents based on their central theme
+
 nltk.download('stopwords')
 stop_words=set(stopwords.words('english'))
 nlp=spacy.load('en_core_web_sm')
