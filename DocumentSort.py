@@ -6,7 +6,7 @@ import shutil
 from nltk.corpus import stopwords
 from sklearn.feature_extraction.text import CountVectorizer
 from gensim import corpora, models
-
+# he
 nltk.download('stopwords')
 stop_words=set(stopwords.words('english'))
 nlp=spacy.load('en_core_web_sm')
